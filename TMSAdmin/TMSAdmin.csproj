@@ -183,21 +183,16 @@
     <Content Include="tms-ng-cli\dist\favicon.ico" />
     <Content Include="tms-ng-cli\dist\index.html" />
     <Content Include="tms-ng-cli\dist\inline.bundle.js" />
-    <Content Include="tms-ng-cli\dist\inline.bundle.js.map" />
     <Content Include="tms-ng-cli\dist\main.bundle.js" />
-    <Content Include="tms-ng-cli\dist\main.bundle.js.map" />
     <Content Include="tms-ng-cli\dist\polyfills.bundle.js" />
-    <Content Include="tms-ng-cli\dist\polyfills.bundle.js.map" />
     <Content Include="tms-ng-cli\dist\scripts.bundle.js" />
-    <Content Include="tms-ng-cli\dist\scripts.bundle.js.map" />
     <Content Include="tms-ng-cli\dist\styles.bundle.js" />
-    <Content Include="tms-ng-cli\dist\styles.bundle.js.map" />
     <Content Include="tms-ng-cli\dist\vendor.bundle.js" />
-    <Content Include="tms-ng-cli\dist\vendor.bundle.js.map" />
     <Content Include="tms-ng-cli\karma.conf.js" />
     <Content Include="tms-ng-cli\protractor.conf.js" />
     <Content Include="tms-ng-cli\src\app\app.component.css" />
     <Content Include="tms-ng-cli\src\app\app.component.html" />
+    <Content Include="tms-ng-cli\src\app\autocomplete\autocomplete.html" />
     <Content Include="tms-ng-cli\src\app\locations\locations.component.css" />
     <Content Include="tms-ng-cli\src\app\locations\locations.component.html" />
     <Content Include="tms-ng-cli\src\favicon.ico" />
@@ -233,6 +228,13 @@
     <Content Include="tms-ng-cli\tslint.json" />
     <Content Include="tms-ng-cli\yarn.lock" />
     <Content Include="Views\Location\Test1.cshtml" />
+    <Content Include="tms-ng-cli\src\app\autocomplete\autocomplete.scss" />
+    <Content Include="tms-ng-cli\dist\inline.bundle.js.map" />
+    <Content Include="tms-ng-cli\dist\main.bundle.js.map" />
+    <Content Include="tms-ng-cli\dist\polyfills.bundle.js.map" />
+    <Content Include="tms-ng-cli\dist\scripts.bundle.js.map" />
+    <Content Include="tms-ng-cli\dist\styles.bundle.js.map" />
+    <Content Include="tms-ng-cli\dist\vendor.bundle.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -273,6 +275,7 @@
     <TypeScriptCompile Include="tms-ng-cli\src\app\app.component.ts" />
     <TypeScriptCompile Include="tms-ng-cli\src\app\app.constants.ts" />
     <TypeScriptCompile Include="tms-ng-cli\src\app\app.module.ts" />
+    <TypeScriptCompile Include="tms-ng-cli\src\app\autocomplete\autocomplete.ts" />
     <TypeScriptCompile Include="tms-ng-cli\src\app\locations\locations.component.spec.ts" />
     <TypeScriptCompile Include="tms-ng-cli\src\app\locations\locations.component.ts" />
     <TypeScriptCompile Include="tms-ng-cli\src\app\locations\locations.model.ts" />
@@ -304,7 +307,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>24719</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8000/</IISUrl>
+          <IISUrl>http://localhost/TMSAdmin</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
