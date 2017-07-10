@@ -1,0 +1,12 @@
+﻿<ul> 
+  <li *ngFor="let location of locations">
+    <a href="#">
+      {{location.pageNumber}}
+    </a>
+  </li>
+</ul>
+<h3>ABCD test</h3>
+<!-- HERE: added this error message -->
+<section *ngIf="errorMessage">
+  {{errorMessage}}
+</section>

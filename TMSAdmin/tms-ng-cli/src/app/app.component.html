@@ -1,0 +1,13 @@
+﻿
+<ul>
+  <li *ngFor="let location of locations | LocationsPageFilter: 'pageNumber' : '1'">
+   <!--{{ location | json }}--> 
+    {{location.locality_code}} 
+  </li>
+</ul>
+
+<h3>TEST1</h3>
+<!-- HERE: added this error message -->
+<section *ngIf="errorMessage">
+  {{errorMessage}}
+</section>
